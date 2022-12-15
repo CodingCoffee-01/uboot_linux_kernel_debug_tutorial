@@ -4,6 +4,15 @@ ref : https://github.com/ARM-software/u-boot/blob/master/doc/README.qemu-arm
 
 ref : https://pandysong.github.io/blog/post/run_u-boot_in_qemu/
 
+ref : https://shenki.github.io/debugging-u-boot-after-relocation/
+
+## prepare 
+
+sudo apt install gdb-multiarch qemu-system-arm gcc-arm-linux-gnueabi flex
+
+git clone git://git.denx.de/u-boot.git
+
+
 ## for arm 32bit arch
 
 export ARCH=arm
