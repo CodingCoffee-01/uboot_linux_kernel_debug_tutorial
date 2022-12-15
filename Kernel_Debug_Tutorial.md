@@ -37,9 +37,10 @@ qemu-system-x86_64 -kernel ./arch/x86/boot/bzImage -initrd ./rootfs -append "roo
 
 gdb ./vmLinux
 
-## Debug the following
+## Debug the following in gdb
 
 target remote:1234
+
 b start_kernel
 
 c
