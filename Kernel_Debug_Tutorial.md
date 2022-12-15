@@ -11,7 +11,8 @@ sudo apt install qemu cpio qemu-system qemu-system-i386
 nano hello.c 
 
 ### hello.c 
-#include <stdio.h>
+
+`#include <stdio.h>
 int main()
 {
     printf("hello world!");
@@ -21,7 +22,8 @@ int main()
     fflush(stdout);
     while(1);
     return 0;
-}
+}`
+
 ### ---------------------------------
 
 touch hello.c
